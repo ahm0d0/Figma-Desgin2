@@ -1,0 +1,43 @@
+#List ul li:hover {
+  color: black;
+  cursor: pointer;
+}
+
+:root {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+@media (max-width: 768px) {
+  #List ul li {
+    font-size: small;
+  }
+}
+
+#borderImage::before {
+  content: "sssssssssssssssssssssssssssssssssssss";
+  position: absolute;
+  z-index: 10;
+  background-color: aqua;
+  width: 20px;
+  height: 20px;
+  border: solid black 2px;
+  top: 0;
+  left: 0;
+}
+.image-Section-6::before {
+  content: "";
+  /* padding-top: 156px; */
+  width: 675px;
+  height: 528px;
+  top: -115px;
+  left: -34px;
+
+  position: absolute;
+  background: url("../Image/Mask group (1).png") no-repeat;
+  object-fit: cover;
+}
